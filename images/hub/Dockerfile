@@ -14,6 +14,8 @@ RUN EXTRA_APT_PACKAGES=; \
     apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
       git \
+      nodejs \
+      npm \
       vim \
       less \
       python3 \

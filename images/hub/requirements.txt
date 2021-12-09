@@ -61,7 +61,8 @@ jsonschema==3.2.0
     # via jupyter-telemetry
 jupyter-telemetry==0.1.0
     # via jupyterhub
-jupyterhub==2.0.0
+# jupyterhub==2.0.0
+git+git://github.com/harrylepotter-win/jupyterhub@main#egg=jupyterhub
     # via
     #   -r requirements.in
     #   jupyterhub-firstuseauthenticator
@@ -103,7 +104,8 @@ mwoauth==0.3.7
     # via -r requirements.in
 nullauthenticator==1.0.0
     # via -r requirements.in
-oauthenticator==14.2.0
+# oauthenticator==14.2.0
+git+git://github.com/harrylepotter-win/oauthenticator@master#egg=oauthenticator
     # via
     #   -r requirements.in
     #   jupyterhub-ltiauthenticator
